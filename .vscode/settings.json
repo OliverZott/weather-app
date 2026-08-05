@@ -19,6 +19,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "biome.linter": true,
-  "biome.formatter": true
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  }
 }
